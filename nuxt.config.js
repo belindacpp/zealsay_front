@@ -31,7 +31,12 @@ export default {
         content: 'zeal'
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
+    script: [
+      {
+        src: 'https://pic.zealsay.com/static/js/baidu.js'
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -44,11 +49,6 @@ export default {
     'chartist/dist/chartist.min.css',
     '@/assets/scss/styles/index.scss',
     '@/static/live2d/css/live2d.css'
-  ],
-  script: [
-    {
-      src: 'https://pic.zealsay.com/static/js/baidu.js'
-    }
   ],
 
   /*
